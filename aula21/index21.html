@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: rgb(206, 147, 216) ;
+    }
+
+    main{
+        margin: 50px auto;
+        height: auto;
+        width: 80%;
+        border: 2px dotted rgb(126, 87, 194);
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: antiquewhite;
+    }
+
+    h2{
+        font-size: 0.8em;
+        padding: 5px 0 9px 0;
+    }
+
+    .borda{
+        border: 2px solid rgb(149, 117, 205) ;
+    }
+
+    .margemEsquerda{
+        margin-left: 5px;
+        
+
+    }
+
+    .remove-bullet{  /*remove.bullet é paratirar os pontinhos de "topico" */
+        list-style: none;
+    }  
+
+    li{
+        width: 100%;
+        height: auto;
+        background-color: rgb(178, 223, 219) ;
+        margin: 2px;
+    }
+
+    .margemEsquerda2{
+        margin-left: 30px;
+    }
+
+    ol{
+        width: 200px;
+        height: auto;
+    }
+
+    div{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%; /*Esse radius faz ficar redondo (circulo)*/
+        background-color: rgb(244, 143, 177) ;
+        margin: 5px;
+        display:block; /*inline-block deixa um ao lado do outro*/
+    }
+
+    a{
+        width: 100%;
+        height: 20px;
+        display: block;
+        border: 1px solid rgb(6, 19, 6);
+    }
+</style>
+
+<body>
+    
+    <main>
+
+        <h2>LISTA DESORDENADA</h2>
+         <!-- LISTA DESORDENADA -->
+
+         <ul class="borda margemEsquerda remove-bullet">   <!-- UL elemento PAI -->
+            <li>aaaa</li>
+            <li>eeee</li>                <!-- li elementos filhos -->
+            <li>iiii</li>
+            <li>oooo</li>
+            <li> <a href="#">Clique aqui</a></li>
+         </ul>
+
+        <h2>LISTA ORDENADA</h2>
+        <!-- LISTA ORDENADA -->
+        <!-- /*por padrão o OL vai numerar os tópicos, 1 -, 2-... precisamos coocar type e colocar o que queremos -->
+            <ol class="margemEsquerda2" type="A"> <!-- OL elemento PAI -->
+                <li>aaaa</li>  <!-- elementos <li> também são filhos de <ol> -->
+                <li>eeee</li>
+                <li>iiii</li>
+                <li>oooo</li>
+                <li> <a href="#">Clique aqui</a></li>
+            </ol>
+
+        <h2>LISTA POR DEFINIÇÃO</h2>
+        <!-- LISTA POR DEFINIÇÃO -->
+        <dl>        <!-- dl elemento PAI -->
+            <dt> <strong>FIAT</strong></dt>
+                <dd>Argo</dd>
+                <dd>Pulse</dd>
+                <dd>500</dd>
+
+            <dt> <strong>Toyota</strong></dt>  </strong>  <!--deixa a palavra ou frase em negrito, serve para dar enfase -->
+                <dd>SW4</dd>
+                <dd>Corolla</dd>
+                <dd>RAV4</dd>
+        </dl>
+
+            <div></div>
+            <div></div>
+            <div></div>
+
+    </main>
+
+</body>
+</html>

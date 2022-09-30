@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main, header, footer {
+    width: 80%;
+    background-color:darkgoldenrod ;
+    margin: 10px auto 10px auto ; /*centralizou os 3 elementos */ 
+}
+
+main {
+    height: auto;
+    
+}
+
+header {
+    height: 60px;
+}
+
+footer {
+    height: auto;
+}
+
+.ajusteTamanho {
+    height: 30vh;
+    background-color: darkgreen ;
+}
+
+.content-card > div, footer > div {
+    width: 48%;
+    height: 130px;
+    background-color: rgb(151, 70, 134);
+}
+
+.flex{
+    display: flex;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+section {
+    margin: 10px auto 10px auto;
+    background-color: rgb(255, 249, 196) ;
+}
+
+@media screen and (max-width:700px) {
+    body{
+        background-color: black;
+    }
+
+    section{
+        height: auto;
+        flex-direction: column;
+    }
+
+    section.content-card > div {
+        width: 100%;
+        margin-bottom: 5px ;
+    }
+
+   
+}

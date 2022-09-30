@@ -1,0 +1,33 @@
+:root{
+    --cor-background-body: green;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--cor-bacground-body);
+}
+
+div#quadrado{
+    margin: 50px auto;
+    width: 300px;
+    height: 300px;
+    border: solid purple;
+    background-color: aquamarine;
+}
+div#quadrado > div#forma {
+    width: 100px;
+    /* height: 100px; */
+    height: 30px;
+    background-color:rgb(255, 87, 34) ;
+    margin: 50px auto;
+    border-radius:  100px;
+    padding: 10px ;
+    cursor: pointer;
+
+}
+

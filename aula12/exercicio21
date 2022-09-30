@@ -1,0 +1,10 @@
+1. É verdade que todo arquivo CSS precisa estar dentro de outra pasta para que o
+navegador possa renderizar os estilos das propriedades CSS?
+-Não, não é verdade, poder estar na pasta raiz juntamente com os outros arquivos, mas é bacana ter pois fica mais organizado, Css dentro de pastas para isso.
+
+2. É verdade que todo elemento HTML possui por padrão elementos filhos?
+-Não necessariamente, pode ser que tenha, lembrando que se colocarmos dentro de uma div, outra div, se torna um elemento filho
+
+3. O que é o viewport?
+-É a área que nós vimos do site/palatforma na web
+-Display

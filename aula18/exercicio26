@@ -1,0 +1,8 @@
+1) como podemos definir uma URL, de um exemplo?
+-Uma URL é um conjunto de elementos que corresponde a um protocolo de Http, a um endereço de dominio e as páginas que estão agregadas a este domínio.
+
+2)O que é o HTTP?
+-Protocolo de comuniçaão entre o navegador e o Servidor de páginas da internet.
+
+3) O que são Vendors em Css ?
+-São prefixos que os fabricantes de Browzers dispoe no Css para que possamos testar novas funcionalidades do Css.

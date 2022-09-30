@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 20</title>
+</head>
+<style>
+    
+    *{
+        margin: 0;
+        width:80%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    
+    
+        section#formulario{
+            margin: 30px auto;
+            padding: 5px;
+        }
+
+
+        fieldset{
+            padding: 2px;
+            border: none;
+        }
+
+        form{
+            width: 100%;
+            height: auto;
+            padding: 2px;
+        }
+
+        label{
+            display: block;
+            width: 100%;
+            height: auto;
+            padding: 2px;
+        }
+
+        .txt{
+            width: 100%;
+            height: 30px;
+        }
+    
+        .fonte{
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            color:rgb(40, 53, 147) ;
+        }
+</style>
+
+<body>
+    <section id="formulario">
+     <form method="post" name="cadastro">  <!-- se não adcionar metodo get ou post, vai automaticamente no get -->
+        <fieldset>
+            <legend class="fonte">Cadastro de usuário</legend>
+            <label for="nomeUsu"> Nome </label>
+        <input type="text" required placeholder="Digite seu primeiro nome" class="txt" id="nomeUsu" name="nomeUsu" value="">
+            <label for="sobreNomeUsu"> Sobrenome </label>
+        <input type="text" required placeholder="Digite seu sobrenome" class="txt" id="sobreNomeUsu" name="sobreNomeUsu" value="">
+            <label for="dataNascUsu"> Data de nascimento </label>
+        <input type="text" class="txt" id="dataNascUsu" name="dataNascUsu" value="">
+        </fieldset>
+    
+        <fieldset>
+        <legend>Sexo</legend>
+        <label for="masculino">m</label>
+        <input type="radio" id="masculino" name="genero" value="m">
+        <label for="feminino">f</label>
+        <input type="radio" id="feminino" name="genero" value="f">
+        </fieldset>
+        <fieldset>
+            <legend>Linguagens de programação</legend>
+            <label for="Php">Php</label>
+            <input type="checkbox" id="Php" name="php" value="php">
+            <label for="JavaScript">JavaScript</label>
+            <input type="checkbox" id="JavaScript" name="js" value="js">
+            <label for="C#">C#</label>
+            <input type="checkbox" id="C#" name="c#" value="c#">
+            <label for="Html/Css">Html/Css</label>
+            <input type="checkbox" id="Html/Css" name="html_css" value="html_css">
+        </fieldset>
+        <fieldset>
+        <select>
+            <option value="">Selecione </option>
+            <option value="Junior">Junior</option>
+            <option value="Pleno">Pleno</option>
+            <option value="Senior">Sênior</option>
+            <option value="Plus"> Plus plus Master</option>
+        </select>
+        </fieldset>
+        <fieldset>
+        <label for="edicao">Escreva mais sobre você!</label>
+        <textarea name=" " id="edicao" cols="80" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" name="enviarDados" value="ENVIAR">
+     </form>
+    </section>
+</body>
+</html>

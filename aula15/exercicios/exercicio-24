@@ -1,0 +1,9 @@
+1)O que a propriedade padding irá proporcionar em um elemento?
+-Irá proporcionar o preenchimento
+
+2) É verdade que todos os elementos HTML possuem por padão a propriedade position no estado Stick?
+-Não, não é verdade. Por padrão a propriedade é Statick
+
+3)Qual a vantagem de utilizar o elemento ALT em um elemento de imagem <img>?
+-1 é que se a imagem não for carregada aparecera uma descrição da imagem 
+-Os leitores de tela podem auxiliar pessoas com deficiencia visual, mostrando uma imagem e a descrição dela.

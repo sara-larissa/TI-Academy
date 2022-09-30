@@ -1,0 +1,34 @@
+:root{
+    --cor-background-body: white;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cor-background-body);
+}
+
+div#forma{
+    margin: 50px auto;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 10px;
+    /* box-sizing: border-box; pode colocar assim também*/
+    box-shadow: 6px 4px 4px rgb(38, 166, 154);
+
+}
+/* 
+div#forma > div#interna {
+    width: 80px;
+    height: 80px; 
+    border:  1px solid rgb(245, 0, 87);
+    background-color: var(--cor-background-body);
+
+} */

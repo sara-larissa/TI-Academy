@@ -1,0 +1,32 @@
+
+html{
+    font-size: 20px; /*o rem sempre segue de acordo com o valor da font-size estabelecido no HTML/root  */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+article#el-pai{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    padding: 5px;
+
+}
+
+/* article#el-pai p#el-filho{
+    width: 100%;
+    height: auto;
+    background-color: rgb(171, 71, 188);
+    font-size: 1rem; /*20px* pq? 20 px ? oq p elemento pai mais próximo é o ARTICLE que no caso foi definido com 20px
+}  */
+
+article#el-pai p#el-filho{
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    font-size: 1rem; /*o rem sempre segue de acordo com o valor da font-size estabelecido no HTML/root  */
+}

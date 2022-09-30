@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: aquamarine;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    main{
+        margin: 30px auto;
+        width: 600px;
+        height: auto;
+        border: 1px solid slateblue;
+        background-color: rgb(209, 196, 233);
+        display: flex;
+       flex-direction: column; /*faz com que o header fique na parte superior e o main na inferior*/
+        /* justify-content: flex-end; centraliza dos elementos desde que seja a propriedade CENTER */
+        /* align-items: flex-end ;  */
+        
+    }
+
+    div{
+        width: 100px;
+        /* height: 100px; */
+        padding: 10px;
+        /* background-color: rgb(240, 98, 146); */
+        margin: 2px;
+    }
+
+    .tamanhos{
+        align-items: stretch ;
+        height:100px ;
+    }
+
+    header{
+        width: 100%;
+        height: 60px;
+        background-color: blueviolet;
+    }
+
+    .flex{
+        display: flex;
+    }
+
+    #content{
+        background-color: rgb(0, 137, 123);
+        width: 70%;
+        height: 100vw;
+    }
+
+    #barra{
+        background-color: rgb(3, 169, 244);
+        width: 30%;
+        height: 100%;
+    }
+
+    #ajustes{
+        width: 100%;
+        height: auto;
+    }
+</style>
+
+<body>
+    
+    <main>
+
+        <header></header>
+
+        <div id="ajustes" class="flex" >
+
+        <section id="content" class="flex" ></section>
+        <section id="barra" class="flex" ></section>
+
+        </div>
+
+      <!-- <div></div>
+      <div class="tamanhos"></div>
+      <div></div> -->
+
+    </main>
+</body>
+</html>

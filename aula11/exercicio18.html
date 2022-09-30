@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+
+<style>
+
+*{
+    margin: 0;
+    padding: 0%;
+    border: 0;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+  /*  margin: 20px; isso que causa as margens*/
+   /* position: absolute; - posso fazer dessa forma, que se aplicaa todas as divs ou igual foi feito, div por div*/
+}
+
+div#teste3{
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+
+}
+
+div#teste4{
+    background-color: pink;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+body /*é no body que a cor de fundo fica, pois os quadradinhos estão em cima dele, e as divs estão dentro do body*/ 
+{ 
+    background-color: rgb(128, 222, 234);
+}
+
+div#teste5{
+    background-color:rgb(255, 235, 59) ;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+
+div#teste6{
+    background-color:rgb(240, 98, 146) ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+</style>
+<body>
+    
+<div id="teste3"></div>
+<div id="teste4"></div>
+<div id="teste5"></div>
+<div id="teste6"></div>
+
+
+</body>
+</html>
